@@ -21,7 +21,6 @@ class App extends React.Component {
             {movies.map(m => (
               <Movie
                 key = {m.id}
-                id = {m.id}
                 year = {m.year}
                 title = {m.title}
                 summary = {m.summary}
