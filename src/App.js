@@ -25,6 +25,7 @@ class App extends React.Component {
                 title = {m.title}
                 summary = {m.summary}
                 poster = {m.medium_cover_image}
+                genres = {m.genres}
               />
             ))}
          </div>
